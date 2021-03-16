@@ -1,0 +1,76 @@
+.footer {
+  position : absolute;
+  bottom : 0;
+  width : 100%;
+  height : 40px;
+  background-color : #222222 ;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* .LoginBox {
+  
+} */
+.person {
+  text-align: center;
+  margin: 50px;
+  border: 1px solid #eee;
+  display: inline-block;
+  box-shadow: 0 2px 2px #ccc;
+  width: 200px;
+  padding: 20px;
+}
+
+.Login {
+  text-align: center;
+  margin: 150px;
+  border: 1px solid #eee;
+  display: inline-block;
+  box-shadow: 0 2px 2px rgb(153, 187, 219);
+  width: 500px;
+  padding: 1px;
+  background-color:#b9abc7
+}
+
+.UserLogin{
+  padding: 25px;
+  margin-bottom: 10px; /* SIMPLY SET THIS PROPERTY AS MUCH AS YOU WANT. This changes the space below box1 */
+  text-align: justify;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0c0c0cf6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(114, 227, 241);
+}
+
+.App-link {
+  color: #b9abc7;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(3600deg);
+  }
+}
